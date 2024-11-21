@@ -1,0 +1,21 @@
+#numar {
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 10em;
+}
+div {
+  text-align: center;
+}
+.buttons {
+  padding: 1.5em;
+  font-size: 2em;
+  color: white;
+  background-color: hsl(271, 100%, 28%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.buttons:hover {
+  background-color: hsl(271, 100%, 18%);
+}
